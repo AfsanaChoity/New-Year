@@ -1,7 +1,7 @@
 /* Header Style */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .banner {
@@ -278,6 +278,7 @@
 
 }
 
+/* section five */
 .text-text * {
     text-align: center;
 }
@@ -326,7 +327,53 @@
     margin: 0 auto;
 }
 
-/* aro baki ache */
+.holiday-sale-margin {
+    margin-bottom: 50px;
+}
+
+.image-image {
+    display: flex;
+
+}
+
+.image-image .box {
+    vertical-align: middle;
+    background-image: url('./resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+    margin-right: 50px;
+    margin-left: 140px;
+}
+
+.image-image .round {
+    height: 430px;
+
+
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.rect {
+    border-radius: 0px 0px 16px 16px;
+    width: 430px;
+    height: 250px;
+
+}
+
+.girl {
+    position: relative;
+}
+
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+
 
 /* section six */
 .product-text * {
@@ -341,12 +388,34 @@
 
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+
     margin-bottom: 10px;
     max-width: 900px;
 }
 
-/* aro baki ache */
+.product-image {
+    margin-top: 48px;
+}
+
+.first-row {
+    margin: 0 140px;
+    width: 100%;
+    text-align: center;
+}
+
+.product-image img {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 413px;
+    height: 420px;
+    cursor: pointer;
+}
+
+.product-image img:hover {
+    background: black;
+}
+
+
 
 /* section seven */
 
@@ -425,11 +494,11 @@
 /* footer */
 
 footer {
-    
+
     background: #070211;
     width: 1600px;
-    
-    
+
+
 }
 
 .footer-text {
@@ -442,35 +511,41 @@ footer {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    
+
 
 }
-.address{
+
+.address {
     padding-top: 120px;
     padding-left: 140px;
     width: 375px;
     margin-bottom: 50px;
 }
-.contact{
+
+.contact {
     padding-top: 120px;
     padding-right: 275px;
     margin-bottom: 50px;
 }
-footer hr{
-    border-color: rgba(255, 255, 255, 0.15);    
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.15);
     text-align: center;
     margin: 0px 140px;
 }
-.icon{
+
+.icon {
     margin-top: 48px;
     margin-bottom: 48px;
     text-align: center;
-    
+
 }
-.icon img{
+
+.icon img {
     margin-right: 24px;
 }
-.last-para{
+
+.last-para {
     display: flex;
     justify-content: space-between;
     padding-left: 140px;
@@ -479,6 +554,7 @@ footer hr{
     padding-right: 140px;
 
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
