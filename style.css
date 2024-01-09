@@ -402,21 +402,83 @@
     font-weight: 400;
 }
 
-.subscriber form button{
+.subscriber form button {
     width: 210px;
     height: 72px;
     background-color: #F00;
     border: none;
     color: #FFF;
 
-text-align: center;
-font-family: 'Inter', sans-serif;
-font-size: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 
-font-weight: 600;
+    font-weight: 600;
 
-text-transform: capitalize;
-border-top-right-radius: 50px;
-border-bottom-right-radius: 50px;
+    text-transform: capitalize;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 
+}
+
+
+/* footer */
+
+footer {
+    
+    background: #070211;
+    width: 1600px;
+    
+    
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+
+}
+.address{
+    padding-top: 120px;
+    padding-left: 140px;
+    width: 375px;
+    margin-bottom: 50px;
+}
+.contact{
+    padding-top: 120px;
+    padding-right: 275px;
+    margin-bottom: 50px;
+}
+footer hr{
+    border-color: rgba(255, 255, 255, 0.15);    
+    text-align: center;
+    margin: 0px 140px;
+}
+.icon{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+    
+}
+.icon img{
+    margin-right: 24px;
+}
+.last-para{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-right: 140px;
+
+}
+.contact a{
+    text-decoration: none;
 }
